@@ -34,6 +34,30 @@ Dart
 	https://www.youtube.com/results?search_query=why+we+use+void+main 
 
 
+* function
+
+- 	What is a function?		(met main () {} als voorbeeld)
+
+					main() is een function	
+	main()		               	main is de naam van de function
+	() 				between the parentheses, the input/data can be defined. 
+					Met die informatie tussen de parentheses wil ik wat doen. 
+	{}				Between the curly braces is defined what the function does	
+	main();		 		semicolon is like a periode in a sentence. 
+					In programming you have to end the statement, 	
+					something i want to run, with a semicolon;
+	
+
+	Bron: 
+	https://www.youtube.com/watch?v=RbZfLSmWqCE
+
+* runApp 
+
+- What is runApp()?			the function runApp is responsible for rendering the UI of your app
+					runApp takes a class object of type Widget.
+					That widget passed inside the runApp becomes the root widget, of the widget tree.
+
+
 
 
 
@@ -112,6 +136,12 @@ Blijkbaar heeft het dus met toegang te maken (nog te testen).
 
 
 
+What is statement?
+What is syntax?
+What is a program?
+What is UI?
+What is widget tree?
+What it MyApp?
 
 
 
