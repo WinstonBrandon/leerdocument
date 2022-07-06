@@ -62,22 +62,40 @@ With this, you fetch all the branches in the repository,
 checkout to the one you specified, and the specific branch becomes the configured local branch 
 for git push and git pull . But you still fetched all files from each branch.
 
+* Create branch 
+
+Go to GitBash
+> git branch [branchname]
+> git checkout [branchname]
+> git push origin [branchname]
+
+
+
+---------------------------------
 
 
 Git Commands
 
-start .  		(Het zichtbaar openen van de map waar je je in Git Bash in bevindt.)
+start .  			(Het zichtbaar openen van de map waar je je in Git Bash in bevindt.)
 
-cd + directory name   	(change directory) 
-cd .. 			(Terug naar vorige (parent) folder)
-cd  			(Terug naar basis folder)
+cd  [directory name]   		(change directory) 
+cd .. 				(Terug naar vorige (parent) folder)
+cd  				(Terug naar basis folder)
 
-ls 			(list) toont een lijst van de bestanden, in de directory waar je je in bevindt.
+ls 				(list) toont een lijst van de bestanden, in de directory waar je je in bevindt.
 
-Clear  			(clear terminal) Deze command wist de informatie in de terminal.
+Clear  				(clear terminal) Deze command wist de informatie in de terminal.
 
 
-mkdir  			(make directory)
+mkdir  				(make directory)
+
+Git checkout [name branch]      (Switch to the branch mentioned)
+
+
+---------------------------------
+
+
+
 
 
 GitBash Troubleshoot
@@ -152,7 +170,7 @@ Blijkbaar heeft het dus met toegang te maken (nog te testen).
 
 To do:
 
-What is a function? 
+What is a function? (de eerstvolgende zoekopdracht).
 
 Clone repository/branch: 
 https://www.freecodecamp.org/news/git-clone-branch-how-to-clone-a-specific-branch/
