@@ -39,6 +39,58 @@ Dart
 
 Git 
 
+* New repository
+
+Go to Github.com > Log in > select create new repository
+Go to Windows > create map (mkdir) and create file 
+Go to GitBash > navigate to directory relevant to file > initialize file repository
+GitBash > git init 
+	> git status
+	> git add . 
+	> git commit -m " description"
+	> git branch -M main 
+	> git remote add origin https://github.com/username/repositoryname.git 		*(remote-repo-url)
+	> git push -u origin main 		
+
+
+* Clone specific repository branch
+
+Go to GitBash 
+> git clone --branch <branchname> <remote-repo-url>
+
+With this, you fetch all the branches in the repository, 
+checkout to the one you specified, and the specific branch becomes the configured local branch 
+for git push and git pull . But you still fetched all files from each branch.
+
+
+
+Git Commands
+
+start .  		(Het zichtbaar openen van de map waar je je in Git Bash in bevindt.)
+
+cd + directory name   	(change directory) 
+cd .. 			(Terug naar vorige (parent) folder)
+cd  			(Terug naar basis folder)
+
+ls 			(list) toont een lijst van de bestanden, in de directory waar je je in bevindt.
+
+Clear  			(clear terminal) Deze command wist de informatie in de terminal.
+
+
+mkdir  			(make directory)
+
+
+GitBash Troubleshoot
+
+SIB+winston.brandon@BZK-5CD01115C3 MINGW64 ~/OneDrive - 
+de Bibliotheek Zuid-Kennemerland/Documenten/Flutter leer (main)
+
+$ git clone -b todo https://github.com/WinstonBrandon/leerdocument.git
+
+fatal: could not create work tree dir 'leerdocument': No such file or directory
+
+OPLOSSING: de map stond op prive, ik heb het veranderd naar publiek.
+Blijkbaar heeft het dus met toegang te maken (nog te testen).
 
 
 
@@ -72,17 +124,6 @@ Git
 
 
 
-Todo 
-
-
-
-
-
-
-
-
-
--	What is a function? 
 
 
 
@@ -95,8 +136,10 @@ Todo
 
 
 
-What is debugging?
-https://www.youtube.com/watch?v=m9H-gnT_TT0&list=PLIUaVvCR10sLD4xvs06aiw465RKbwW-IC&index=57 
+
+
+
+
 
 
 
@@ -109,6 +152,8 @@ https://www.youtube.com/watch?v=m9H-gnT_TT0&list=PLIUaVvCR10sLD4xvs06aiw465RKbwW
 
 To do:
 
+What is a function? 
+
 Clone repository/branch: 
 https://www.freecodecamp.org/news/git-clone-branch-how-to-clone-a-specific-branch/
 
@@ -117,28 +162,9 @@ https://linuxize.com/post/change-git-commit-message/
 
 https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
 
-Troubleshoot
-SIB+winston.brandon@BZK-5CD01115C3 MINGW64 ~/OneDrive - de Bibliotheek Zuid-Kennemerland/Documenten/Flutter leer (main)
-$ git clone -b todo https://github.com/WinstonBrandon/leerdocument.git
-fatal: could not create work tree dir 'leerdocument': No such file or directory
-	SIB+winston.brandon@BZK-5CD01115C3 MINGW64 ~/OneDrive - de Bibliotheek Zuid-Kennemerland/Documenten/Flutter leer (main)
-$ git clone -b todo https://github.com/WinstonBrandon/leerdocument.git
-fatal: could not create work tree dir 'leerdocument': No such file or directory
 
-oplossing: de map stond op prive, ik heb het veranderd naar publiek.
-
-
-
-
-
-
-
-
-
-
-
-
-
+What is debugging?
+https://www.youtube.com/watch?v=m9H-gnT_TT0&list=PLIUaVvCR10sLD4xvs06aiw465RKbwW-IC&index=57 
 
 
 
@@ -154,14 +180,6 @@ https://devconnected.com/create-git-branch/
 
 
 
-
-
-
-
-
-
-
-
 Training vindt plaats op de branch
 
 Main voeg ik de code toe die staat
@@ -170,31 +188,25 @@ Eventueel door andere branch te mergen
 
 
 
-
-
-
 Git Bash Commands
 pwd = present working directory:  		Met deze command toon Git Bash in welke directory je zit.
 
-Clear = clear terminal 		Deze command wist de informatie in de terminal (voorgaande acties niet zichtbaar).
 Crtl + l = fresh page in terminal  	Deze command creeert een schoon scherm in de terminal (voorgaande acties wel zichtbaar).
 
 --help   	Geeft informatie over het commando wat je ervoor schrijft
 
-Ls = list                                          		Deze command toont een lijst de bestanden in de directory waar je je in bevindt
+
 Ls -l = list with details 	
 Ls -a = list with hidden folders and files
 Ls -la = list with details about files and hidden folders and files
 
-cd + directory name= change directory (bijv (cd Desktop))
-cd .. = 		Terug naar parent folder
-cd = 		Terug naar basis folder
-start . = 	Het zichtbaar openen van de map waar je je in Git Bash in bevindt.
+
+
+
 Cd + directory + foldernaam = change directory direct naar het bestand waar je wilt zijn(bijv(cd Desktop/new-folder))
 
 
 
-mkdir – make directory
 touch – make file 
 cat kijken naar inhoud file in terminal
 tab =  maakt automatisch compleet
@@ -205,21 +217,9 @@ rm -rf = remove folder
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 Git
 
-Git init – initialiseert nieuwe repository folder 
+
 
 Git heeft een eigen systeem en slaat dus zelf objecten op: 
 Git object types: Dit zijn de type objecten die Git opslaat. In deze 4 objecten zit alle noodzakelijke data. 
