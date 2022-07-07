@@ -56,6 +56,7 @@ Dart
 - What is runApp()?			the function runApp is responsible for rendering the UI of your app
 					runApp takes a class object of type Widget.
 					That widget passed inside the runApp becomes the root widget, of the widget tree.
+					The runApp() function takes the given Widget and makes it the root of the widget tree.
 
 
 
@@ -77,6 +78,7 @@ GitBash > git init
 	> git push -u origin main 		
 
 
+
 * Clone specific repository branch
 
 Go to GitBash 
@@ -85,6 +87,7 @@ Go to GitBash
 With this, you fetch all the branches in the repository, 
 checkout to the one you specified, and the specific branch becomes the configured local branch 
 for git push and git pull . But you still fetched all files from each branch.
+
 
 * Create branch 
 
@@ -95,10 +98,9 @@ Go to GitBash
 
 
 
----------------------------------
 
 
-Git Commands
+* Git Commands
 
 start .  			(Het zichtbaar openen van de map waar je je in Git Bash in bevindt.)
 
@@ -116,13 +118,13 @@ mkdir  				(make directory)
 Git checkout [name branch]      (Switch to the branch mentioned)
 
 
----------------------------------
 
 
 
 
 
-GitBash Troubleshoot
+
+* GitBash Troubleshoot
 
 SIB+winston.brandon@BZK-5CD01115C3 MINGW64 ~/OneDrive - 
 de Bibliotheek Zuid-Kennemerland/Documenten/Flutter leer (main)
@@ -136,71 +138,65 @@ Blijkbaar heeft het dus met toegang te maken (nog te testen).
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 What is statement?
 What is syntax?
 What is a program?
 What is UI?
 What is widget tree?
 What it MyApp?
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+What is a type?
 
 
 To do:
+7-7 pull specific branch commit. 
 
-What is a function? (de eerstvolgende zoekopdracht).
 
 Clone repository/branch: 
 https://www.freecodecamp.org/news/git-clone-branch-how-to-clone-a-specific-branch/
@@ -225,13 +221,6 @@ https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-re
 https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
 
 https://devconnected.com/create-git-branch/
-
-
-
-Training vindt plaats op de branch
-
-Main voeg ik de code toe die staat
-Eventueel door andere branch te mergen
 
 
 
