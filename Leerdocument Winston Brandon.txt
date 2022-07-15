@@ -1,0 +1,480 @@
+	
+	Leerdocument Winston Brandon:  Dart, Git. Flutter
+
+
+	1. Dart 
+----------------------------
+
+- >	1.1 void main() {RunApp(MyApp());}
+
+	* void main(){}		
+	* function 
+	* return type
+	
+		
+	void main() {} is een function
+	void = return type 
+	main = function name
+	()   = Tussen de parentheses wordt de input(value) beschreven dit worden parameters en/of arguments genoemd.  
+	{}   = function body. Hierin staat de code (statement(s)) die wordt uitgevoerd als de functie wordt opgeroepen. 
+	;    = semicolon eindig de statement, 
+
+
+	- Wat is een function? 
+	  	Een functie is de relatie van een set van inputs met een set van mogelijke outputs, 
+	  	waarbij elke input gerelateerd kan worden aan één output. Kortom: 
+	  	Een collectie van code die zijn gegroepeerd en iederer een specifieke taak uit te voeren. Deep Dive: 
+
+	- Wat is void? 
+		Void is de return type van deze function.Void retourneert geen value nadat de function is uitgevoerd. 
+		Void heeft daarom een return van 0 
+
+	
+	- Wat is main? 
+		Het is het ingangspunt van de applicatie en met die functie weet Dart waar het moet beginnen met het uitvoeren van de code. 
+		Alle functies worden uitgevoerd binnen main. De uitvoering van het programma start en eindigt in de main functie. Het is de
+		eerste functie die automatisch door Dart wordt uitgevoerd.  
+
+
+	- What is return type?  
+		Return type definieert de type value/ data dat vanuit de functie terugkeerd, wanneer de functie is uitgevoerd. 
+
+
+	- Waarom heeft de main functie een return type nodig? 
+		De main functie moet aan het operating system (OS) vertellen dat 
+		het specifieke programma succesvol is uitgevoerd.
+
+	- Wat is runApp()? 
+		runApp runt de flutter app. Het neemt de widget tree en tekent 
+		iets op het scherm wat is gebasseerd op die widget tree.
+		De widget die in deze app als argument wordt vernoemd wordt de root widget van de widget tree. 
+		runApp neemt deze widget en roept er de build methode voor op.
+
+		
+
+----------------------------
+
+
+- >	1.2 class MyApp extends StatelessWidget {
+  	      Widget build(BuildContext context} { 
+                return MaterialApp();
+              }
+            }
+
+   	
+	Flutter apps zijn een verzameling van Widgets.
+
+	- Wat zijn Widgets? 
+		Widgets zijn de UI bouwblokken die je ziet op het scherm.
+		Widgets bestaan uit andere Widgets. Dit leidt tot een tree of Widgets.
+		Een Widget is een special type object.  
+
+	- Wat is een class? 
+		Je hebt een class nodig om een object te maken.
+		In een class kan je de blauwdrukte definieren voor een object. In de class body { } 
+		kun je definieren hoe de class/het object eruit ziet.
+
+	- Wat is een property? 	Een variabel in een class. 
+	- Wat is een method? 	Een function in een class.
+ 	- Wat is extends?  	Extends informeert Dart dat deze class zal worden gebasseerd op een andere class.
+ 	
+	- Wat is een StatelessWidget?  Een Widget wiens state niet kan worden veranderd als het eenmaal is gebouwd 
+	- Wat is een StatefulWidget"?  Een Widget wiens state wel kan worden veranderd als het eenmaal is gebouwd
+
+	- Wat is build ?	
+	- Wat is BuildContext? 
+		Het is een  zoeker die wordt gebruik om elke widget en 
+		zijn positie in de Widget tree te localiseren
+		https://www.educative.io/answers/what-is-buildcontext-in-flutter 
+
+	- Wat is MaterialApp 
+		MaterialApp creeert een basis set up en veranderd je combinatie 
+		aan Widgets in een daadwerkelijk App die kan worden gerendered.
+
+	- Wat is home:? 
+		Home is de core Widget die flutter op het scherm 
+		brengt als de app wordt gemoteerd op het scherm
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+2. Git 
+
+- > 	Nieuwe repository
+
+	Go to Github.com > Log in > select create new repository
+	Go to Windows > create map (mkdir) and create file 
+	Go to GitBash > navigate to directory relevant to file > initialize file repository
+	GitBash > git init 
+		> git status
+		> git add . 
+		> git commit -m " <description>"
+		> git remote add origin <remote-repo-url>
+		> git remote add origin <remote-repo-url>
+		> git push -u origin main 
+
+
+- > 	Nieuwe update in bestand van een repository (.git file aanwezig)
+	GitBash > git add .
+		> git commit -m " description"
+		> git remote add origin <remote-repo-url>
+		> git push -u origin <branch name> 
+
+
+- > 	Verander naam van laatste commit van de branch:
+	GitBash > git commit --amend -m "<nieuwe text>" 		(voldoende voor commits zonder de push)
+		> git push origin <branch name> -f 			(nodig voor commit die reeds zijn gepushed)
+	
+- >   	Delete branch(remotely):
+	GitBash > navigeer naar parent file van de repository
+		> git push <remote-repo-url> --delete <branch name>
+
+
+- > 	Clone main repository from GitHub: GitBash > git clone <remote-repo-url>
+
+- > 	Clone repository branch from GitHub: GitBash > git clone --branch <branchname> <remote-repo-url>
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return zie 21 dart basics 15.51
+
+
+
+ 
+tree of Widgets
+
+
+Data types: Text: Strings 'Hello World' Numbers: Integers (29) doubles 29,99
+
+
+// zijn comments en worden niet uitgevoerd
+
+
+Bij answerQuestion kijk naar filmpje 21. dart basics 3.36
+
+- WAT IS EEN variable? dart 22.2:00
+
+
+	- Wat is een statement? 
+
+		Een commando die de programmeur aan de computer geeft in de vorm 
+		van een enkele, uitvoerbare instructie/code.  
+		a statement is a single line of code that performs a specific task.
+
+
+	- Wat is een parameter - Wat is een argument? 
+
+		Parameters en arguments zijn in principe hetzelfde. Het is in informatie die wordt vermeld in een function.
+		Het is de data tussen de parentheses ()
+I
+
+	- camelcase
+
+- block statements
+A “block statement” is simply one or more statements written inside a block. The block causes the entire group of statements inside it to be treated as one 
+	
+
+Wat is een object? Dart 22 5:00
+	- What is null value?
+
+		Null value kan worden gedefinieerd als de waarde voor een succesvolle uitvoer. 
+		Als je een andere waarde zou gebruiken dan weet de main functie dus niet 
+		of de functie wel of niet succesvol is uitgevoerd. Null value moet dus terugkeren. 
+
+	
+		
+	* return type  		@
+	* null value		@
+	* function
+	* statement
+	* parameter / argument
+
+Bron:
+	https://www.youtube.com/results?search_query=why+we+use+void+main 
+	https://www.youtube.com/watch?v=EUPRbnicXUw
+	https://www.teamten.com/lawrence/programming/intro/intro2.html
+
+
+	Bron: 
+	https://www.youtube.com/watch?v=RbZfLSmWqCE
+
+*
+
+of the widget tree.
+					
+
+
+
+
+Wat is een instance of a class. het concrete object waarmee je kan werken. zie dart 22 
+
+
+- 
+- 
+
+
+We can think of a class as a sketch (prototype) of a house. It contains all the details 
+about the floors, doors, windows, etc. Based on these descriptions we build the house. House is the object.
+
+- wat is een variable?  bijv(questionIndex = 0;  of  String questionText;
+Variables are data containers - they have names and store values of any type.
+
+Question(this.questionText) de punt geeft de class object (widget) toegang tot de data van de property variable 
+- MaterialApp creeert een basis set up en zorgt er dusdanig voor dat de combinatie van Widget worden gerendered naar een echte app die kan worden gebruikt. 
+-superclass
+
+-Stateless Widget
+-Stateful widget
+
+-wat is home? Home is de kernWidget die flutter op het scherm zal plaatsen als de App wordt geactiveerd.
+-create state
+Wat is een constructor? 
+Wat is @required?    required zorgt ervoor dat Dart je alarmeert als je geen value gebruikt voor je benoemde argument
+
+-@override
+
+- final
+- const 
+
+-int
+- _
+
+- set state
+
+- widget tree
+- Widgets ...
+
+		
+
+
+
+* Clone specific repository branch
+
+Go to GitBash 
+> git clone --branch <branchname> <remote-repo-url>
+
+With this, you fetch all the branches in the repository, 
+checkout to the one you specified, and the specific branch becomes the configured local branch 
+for git push and git pull . But you still fetched all files from each branch.
+
+
+* Create branch 
+
+Go to GitBash
+> git branch [branchname]
+> git checkout [branchname]
+> git push origin [branchname]
+
+* pull a specific commit
+
+> git checkout (branch you want to commit the pull to)
+>  git pull origin <commit_hash>
+> git push -u origin (same branch as before)
+
+
+
+* Git Commands
+
+start .  			(Het zichtbaar openen van de map waar je je in Git Bash in bevindt.)
+
+cd  [directory name]   		(change directory) 
+cd .. 				(Terug naar vorige (parent) folder)
+cd  				(Terug naar basis folder)
+
+ls 				(list) toont een lijst van de bestanden, in de directory waar je je in bevindt.
+
+Clear  				(clear terminal) Deze command wist de informatie in de terminal.
+
+
+mkdir  				(make directory)
+
+Git checkout [name branch]      (Switch to the branch mentioned)
+
+
+
+
+
+
+
+
+* GitBash Troubleshoot
+
+SIB+winston.brandon@BZK-5CD01115C3 MINGW64 ~/OneDrive - 
+de Bibliotheek Zuid-Kennemerland/Documenten/Flutter leer (main)
+
+$ git clone -b todo https://github.com/WinstonBrandon/leerdocument.git
+
+fatal: could not create work tree dir 'leerdocument': No such file or directory
+
+OPLOSSING: de map stond op prive, ik heb het veranderd naar publiek.
+Blijkbaar heeft het dus met toegang te maken (nog te testen).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What is syntax?
+What is a program?
+What is UI?
+What is widget tree?
+
+
+
+
+To do:
+7-7 pull specific branch commit. 
+
+
+Clone repository/branch: 
+https://www.freecodecamp.org/news/git-clone-branch-how-to-clone-a-specific-branch/
+
+change commit message:
+https://linuxize.com/post/change-git-commit-message/ 
+
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+
+
+What is debugging?
+https://www.youtube.com/watch?v=m9H-gnT_TT0&list=PLIUaVvCR10sLD4xvs06aiw465RKbwW-IC&index=57 
+
+
+
+
+Configuratiescherm\Gebruikersaccounts\Referentiebeheer
+	Windows Referentie
+
+https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+
+https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches
+
+https://devconnected.com/create-git-branch/
+
+
+
+
+Git Bash Commands
+pwd = present working directory:  		Met deze command toon Git Bash in welke directory je zit.
+
+Crtl + l = fresh page in terminal  	Deze command creeert een schoon scherm in de terminal (voorgaande acties wel zichtbaar).
+
+--help   	Geeft informatie over het commando wat je ervoor schrijft
+
+
+Ls -l = list with details 	
+Ls -a = list with hidden folders and files
+Ls -la = list with details about files and hidden folders and files
+
+
+
+
+Cd + directory + foldernaam = change directory direct naar het bestand waar je wilt zijn(bijv(cd Desktop/new-folder))
+
+
+
+touch – make file 
+cat kijken naar inhoud file in terminal
+tab =  maakt automatisch compleet
+
+rm = remove file
+rm -rf = remove folder
+
+
+
+
+Git
+
+
+
+Git heeft een eigen systeem en slaat dus zelf objecten op: 
+Git object types: Dit zijn de type objecten die Git opslaat. In deze 4 objecten zit alle noodzakelijke data. 
+-	Blob: 			Hier slaat Git files op. Elke file van elke type 
+-	Tree:			Hier slaat Git de informatie over de directory op
+-	Commit: 		Hier worden de verschillende versies van projecten opgeslagen
+-	Annotated Tag: 	Dit is een textpointer (verwijzer) naar een specifieke commit
+
+Hash Function 
+1.	Is a one way function (bijv passwords worden opgeslagen als hash. 
+2.	Same hash function will always create same hash for the same input
+
+
+
+
+
+
+
+
+
+
+
