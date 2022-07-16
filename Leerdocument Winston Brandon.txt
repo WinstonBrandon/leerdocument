@@ -8,8 +8,8 @@
 - >	1.1 void main() {RunApp(MyApp());}
 
 	* void main(){}		
-	* function 
-	* return type
+	* function 		
+	* return type		
 	
 		
 	void main() {} is een function
@@ -20,31 +20,31 @@
 	;    = semicolon eindig de statement, 
 
 
-	- Wat is een function? 
+	- Wat is een function? 	@
 	  	Een functie is de relatie van een set van inputs met een set van mogelijke outputs, 
 	  	waarbij elke input gerelateerd kan worden aan één output. Kortom: 
 	  	Een collectie van code die zijn gegroepeerd en iederer een specifieke taak uit te voeren. Deep Dive: 
 
-	- Wat is void? 
+	- Wat is void? 		@
 		Void is de return type van deze function.Void retourneert geen value nadat de function is uitgevoerd. 
 		Void heeft daarom een return van 0 
 
 	
-	- Wat is main? 
+	- Wat is main? 		@
 		Het is het ingangspunt van de applicatie en met die functie weet Dart waar het moet beginnen met het uitvoeren van de code. 
 		Alle functies worden uitgevoerd binnen main. De uitvoering van het programma start en eindigt in de main functie. Het is de
 		eerste functie die automatisch door Dart wordt uitgevoerd.  
 
 
-	- What is return type?  
+	- What is return type?  @
 		Return type definieert de type value/ data dat vanuit de functie terugkeerd, wanneer de functie is uitgevoerd. 
 
 
-	- Waarom heeft de main functie een return type nodig? 
+	- Waarom heeft de main functie een return type nodig? @
 		De main functie moet aan het operating system (OS) vertellen dat 
 		het specifieke programma succesvol is uitgevoerd.
 
-	- Wat is runApp()? 
+	- Wat is runApp()? @
 		runApp runt de flutter app. Het neemt de widget tree en tekent 
 		iets op het scherm wat is gebasseerd op die widget tree.
 		De widget die in deze app als argument wordt vernoemd wordt de root widget van de widget tree. 
@@ -123,9 +123,13 @@
 		> git remote add origin <remote-repo-url>
 		> git push -u origin <branch name> 
 
+- > 	Create branch 
+	GitBash > git branch <brachname>
+- > 	Go to branch
+	GitBash > git checkout <branchname>
 
 - > 	Verander naam van laatste commit van de branch:
-	GitBash > git commit --amend -m "<nieuwe text>" 		(voldoende voor commits zonder de push)
+	GitBash > git commit --amend -m "<nieuwe text>" 		(voldoende voor commits zonder de push) (door met normale nieuwe update route)
 		> git push origin <branch name> -f 			(nodig voor commit die reeds zijn gepushed)
 	
 - >   	Delete branch(remotely):
@@ -137,6 +141,9 @@
 
 - > 	Clone repository branch from GitHub: GitBash > git clone --branch <branchname> <remote-repo-url>
 
+- > 	Load a specific commit: 
+		GitBash > git checkout <commit-id>   
+			
 
 
 
