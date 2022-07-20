@@ -36,7 +36,7 @@
 		eerste functie die automatisch door Dart wordt uitgevoerd.  
 
 
-	- What is return type?  @
+	- What is return type /data type?  @
 		Return type definieert de type value/ data dat vanuit de functie terugkeerd, wanneer de functie is uitgevoerd. 
 
 
@@ -57,7 +57,7 @@
 
 - >	1.2 class MyApp extends StatelessWidget {
   	      Widget build(BuildContext context} { 
-                return MaterialApp();
+                return MaterialApp(home:);
               }
             }
 
@@ -96,6 +96,16 @@
 		brengt als de app wordt gemoteerd op het scherm
 
 
+- > 	1.3 
+
+	- Wat is onPressed: ?
+		onPressed voegt functionaliteit toe aan een knop
+
+	- What is null value?
+		Null heeft geen waarde. 
+		Null value kan worden gedefinieerd als de waarde voor een succesvolle uitvoer. 
+		Als je een andere waarde zou gebruiken dan weet de main functie dus niet 
+		of de functie wel of niet succesvol is uitgevoerd. Null value moet dus terugkeren. 
 
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -171,11 +181,7 @@
 
 return zie 21 dart basics 15.51
 
-
-
  
-tree of Widgets
-
 
 Data types: Text: Strings 'Hello World' Numbers: Integers (29) doubles 29,99
 
@@ -195,10 +201,19 @@ Bij answerQuestion kijk naar filmpje 21. dart basics 3.36
 		a statement is a single line of code that performs a specific task.
 
 
-	- Wat is een parameter - Wat is een argument? 
+- Wat is een parameter - Wat is een argument? 
 
 		Parameters en arguments zijn in principe hetzelfde. Het is in informatie die wordt vermeld in een function.
 		Het is de data tussen de parentheses ()
+
+- Wat is een positional argument?
+At the call site, arguments are reference by the position. 
+
+- Wat is een named argument?
+the position of the argument doesn't matter (since we reference them by their name, not position
+
+https://sarunw.com/posts/dart-parameters/
+
 I
 
 	- camelcase
@@ -208,17 +223,9 @@ A “block statement” is simply one or more statements written inside a block.
 	
 
 Wat is een object? Dart 22 5:00
-	- What is null value?
-
-		Null value kan worden gedefinieerd als de waarde voor een succesvolle uitvoer. 
-		Als je een andere waarde zou gebruiken dan weet de main functie dus niet 
-		of de functie wel of niet succesvol is uitgevoerd. Null value moet dus terugkeren. 
 
 	
-		
-	* return type  		@
-	* null value		@
-	* function
+	
 	* statement
 	* parameter / argument
 
@@ -231,12 +238,7 @@ Bron:
 	Bron: 
 	https://www.youtube.com/watch?v=RbZfLSmWqCE
 
-*
-
-of the widget tree.
-					
-
-
+	
 
 
 Wat is een instance of a class. het concrete object waarmee je kan werken. zie dart 22 
@@ -256,15 +258,13 @@ Question(this.questionText) de punt geeft de class object (widget) toegang tot d
 - MaterialApp creeert een basis set up en zorgt er dusdanig voor dat de combinatie van Widget worden gerendered naar een echte app die kan worden gebruikt. 
 -superclass
 
--Stateless Widget
--Stateful widget
 
--wat is home? Home is de kernWidget die flutter op het scherm zal plaatsen als de App wordt geactiveerd.
 -create state
 Wat is een constructor? 
-Wat is @required?    required zorgt ervoor dat Dart je alarmeert als je geen value gebruikt voor je benoemde argument
+Wat is @required?    
 
--@override
+-Wat is @override
+Wat os eem superclass?
 
 - final
 - const 
@@ -289,14 +289,6 @@ Go to GitBash
 With this, you fetch all the branches in the repository, 
 checkout to the one you specified, and the specific branch becomes the configured local branch 
 for git push and git pull . But you still fetched all files from each branch.
-
-
-* Create branch 
-
-Go to GitBash
-> git branch [branchname]
-> git checkout [branchname]
-> git push origin [branchname]
 
 * pull a specific commit
 
