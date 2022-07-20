@@ -23,7 +23,7 @@
 	- Wat is een function? 	@
 	  	Een functie is de relatie van een set van inputs met een set van mogelijke outputs, 
 	  	waarbij elke input gerelateerd kan worden aan één output. Kortom: 
-	  	Een collectie van code die zijn gegroepeerd en iederer een specifieke taak uit te voeren. Deep Dive: 
+	  	Een collectie van code die zijn gegroepeerd en een specifieke taak uit te voeren. 
 
 	- Wat is void? 		@
 		Void is de return type van deze function.Void retourneert geen value nadat de function is uitgevoerd. 
@@ -107,11 +107,54 @@
 		Als je een andere waarde zou gebruiken dan weet de main functie dus niet 
 		of de functie wel of niet succesvol is uitgevoerd. Null value moet dus terugkeren. 
 
+	- Wat is een parameter / Wat is een argument? 
 
+		Parameters en arguments zijn in principe hetzelfde. Het is informatie die wordt vermeld in een function.
+		Het is de data tussen de parentheses ()
+
+ 	- Wat is een named argument?
+		Binnen de call site worden de argumenten gerefeerd aan de hand van hun naam. 
+
+	- Wat is een positional argument? 
+		Binnen de call site worden de argumenten gerefereerd aan de hand van hun positie. 
+
+	- Wat is de call method? 
+		De gebruikelijke methode om een functie op te roepen, bijv someFunction()
+
+	- Wat is een statement? 
+		Een commando aan de computer in de vorm van een enkele, uit te voeren code, met een specifieke taak.   
+	
+	- Wat zijn // ?
+		// zijn comments en worden niet uitgevoerd.
+
+- > 1.4 Variable ->  String name = 'David'  
+	
+	String 	= Data Type / Return Type
+	name 	= Identifier
+	'David' = Value
+	
+ALLE VARIABLES MOETEN WORDEN ONTHULD (DECLARED) ALVORENS ZE WORDEN GEBRUIKT.
+
+	- Wat is een variable?
+		Plekken in het geheugen van je computer waar je informatie en data kan opslaan.
+
+Data Types:
+* Num (int, double)
+* String
+* bool
+* List 
+* Map
+* Dynamic, var
+* Custom objects
+
+bron:
+https://www.youtube.com/watch?v=sp4YSF9rpkI
 -----------------------------------------------------------------------------------------------------------------------------
 
 
 2. Git 
+
+	2.1
 
 - > 	Nieuwe repository
 
@@ -151,8 +194,27 @@
 
 - > 	Clone repository branch from GitHub: GitBash > git clone --branch <branchname> <remote-repo-url>
 
-- > 	Load a specific commit: 
+? - > 	Load a specific commit: 
 		GitBash > git checkout <commit-id>   
+
+	2.2 
+
+ Git Commands
+
+start .  			(Het zichtbaar openen van de map waar je je in Git Bash in bevindt.)
+
+cd  [directory name]   		(change directory) 
+cd .. 				(Terug naar vorige (parent) folder)
+cd  				(Terug naar basis folder)
+
+ls 				(list) toont een lijst van de bestanden, in de directory waar je je in bevindt.
+
+Clear  				(clear terminal) Deze command wist de informatie in de terminal.
+
+mkdir  				(make directory)
+
+Git checkout [name branch]      (Switch to the branch mentioned)
+
 			
 
 
@@ -181,71 +243,30 @@
 
 return zie 21 dart basics 15.51
 
- 
-
 Data types: Text: Strings 'Hello World' Numbers: Integers (29) doubles 29,99
-
-
-// zijn comments en worden niet uitgevoerd
-
 
 Bij answerQuestion kijk naar filmpje 21. dart basics 3.36
 
 - WAT IS EEN variable? dart 22.2:00
 
-
-	- Wat is een statement? 
-
-		Een commando die de programmeur aan de computer geeft in de vorm 
-		van een enkele, uitvoerbare instructie/code.  
-		a statement is a single line of code that performs a specific task.
-
-
-- Wat is een parameter - Wat is een argument? 
-
-		Parameters en arguments zijn in principe hetzelfde. Het is in informatie die wordt vermeld in een function.
-		Het is de data tussen de parentheses ()
-
-- Wat is een positional argument?
-At the call site, arguments are reference by the position. 
-
-- Wat is een named argument?
-the position of the argument doesn't matter (since we reference them by their name, not position
-
 https://sarunw.com/posts/dart-parameters/
 
-I
-
-	- camelcase
+- camelcase
 
 - block statements
 A “block statement” is simply one or more statements written inside a block. The block causes the entire group of statements inside it to be treated as one 
-	
 
 Wat is een object? Dart 22 5:00
-
 	
-	
-	* statement
-	* parameter / argument
-
 Bron:
 	https://www.youtube.com/results?search_query=why+we+use+void+main 
 	https://www.youtube.com/watch?v=EUPRbnicXUw
 	https://www.teamten.com/lawrence/programming/intro/intro2.html
 
-
 	Bron: 
 	https://www.youtube.com/watch?v=RbZfLSmWqCE
 
-	
-
-
-Wat is een instance of a class. het concrete object waarmee je kan werken. zie dart 22 
-
-
-- 
-- 
+	Wat is een instance of a class. het concrete object waarmee je kan werken. zie dart 22 
 
 
 We can think of a class as a sketch (prototype) of a house. It contains all the details 
@@ -277,49 +298,12 @@ Wat os eem superclass?
 - widget tree
 - Widgets ...
 
-		
-
-
-
-* Clone specific repository branch
-
-Go to GitBash 
-> git clone --branch <branchname> <remote-repo-url>
-
-With this, you fetch all the branches in the repository, 
-checkout to the one you specified, and the specific branch becomes the configured local branch 
-for git push and git pull . But you still fetched all files from each branch.
 
 * pull a specific commit
 
 > git checkout (branch you want to commit the pull to)
 >  git pull origin <commit_hash>
 > git push -u origin (same branch as before)
-
-
-
-* Git Commands
-
-start .  			(Het zichtbaar openen van de map waar je je in Git Bash in bevindt.)
-
-cd  [directory name]   		(change directory) 
-cd .. 				(Terug naar vorige (parent) folder)
-cd  				(Terug naar basis folder)
-
-ls 				(list) toont een lijst van de bestanden, in de directory waar je je in bevindt.
-
-Clear  				(clear terminal) Deze command wist de informatie in de terminal.
-
-
-mkdir  				(make directory)
-
-Git checkout [name branch]      (Switch to the branch mentioned)
-
-
-
-
-
-
 
 
 * GitBash Troubleshoot
