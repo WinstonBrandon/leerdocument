@@ -327,13 +327,14 @@ fatal: could not create work tree dir 'leerdocument': No such file or directory
 OPLOSSING: de map stond op prive, ik heb het veranderd naar publiek.
 Blijkbaar heeft het dus met toegang te maken (nog te testen).
 
+getter
 
 What is syntax?
 What is a program?
 What is UI?
 What is widget tree?
 
-
+ternary expression
 
 
 To do:
