@@ -149,6 +149,16 @@ Data Types:
 
 bron:
 https://www.youtube.com/watch?v=sp4YSF9rpkI
+
+- > 1.5 
+
+Wat is een key-value pair?
+	Data (String/int) die een specifieke waarde vertegenwoordigd(bijv 'questionText':'What is your name?
+	Een key value pair bestaat uit twee gerelateerde data elementen.
+	Een key, deze is constant en definieert de data set.
+	En een value, dit is een variable die is gekoppeld aan de key.  
+
+
 -----------------------------------------------------------------------------------------------------------------------------
 
 
@@ -247,7 +257,7 @@ Data types: Text: Strings 'Hello World' Numbers: Integers (29) doubles 29,99
 
 Bij answerQuestion kijk naar filmpje 21. dart basics 3.36
 
-- WAT IS EEN variable? dart 22.2:00
+- Wat is een constructor?
 
 https://sarunw.com/posts/dart-parameters/
 
@@ -272,8 +282,6 @@ Bron:
 We can think of a class as a sketch (prototype) of a house. It contains all the details 
 about the floors, doors, windows, etc. Based on these descriptions we build the house. House is the object.
 
-- wat is een variable?  bijv(questionIndex = 0;  of  String questionText;
-Variables are data containers - they have names and store values of any type.
 
 Question(this.questionText) de punt geeft de class object (widget) toegang tot de data van de property variable 
 - MaterialApp creeert een basis set up en zorgt er dusdanig voor dat de combinatie van Widget worden gerendered naar een echte app die kan worden gebruikt. 
@@ -281,7 +289,8 @@ Question(this.questionText) de punt geeft de class object (widget) toegang tot d
 
 
 -create state
-Wat is een constructor? 
+
+- private propperties
 Wat is @required?    
 
 -Wat is @override
@@ -317,55 +326,6 @@ fatal: could not create work tree dir 'leerdocument': No such file or directory
 
 OPLOSSING: de map stond op prive, ik heb het veranderd naar publiek.
 Blijkbaar heeft het dus met toegang te maken (nog te testen).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 What is syntax?
