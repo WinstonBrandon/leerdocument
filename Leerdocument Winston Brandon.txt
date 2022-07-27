@@ -207,6 +207,14 @@ Wat is een key-value pair?
 ? - > 	Load a specific commit: 
 		GitBash > git checkout <commit-id>   
 
+- >  Merge branch into main: GitBash 
+	> go to main
+	> git merge <branch name>
+
+- > How to merge only specific commit:  GitBash 
+	> go to main
+	> git cherry-pick <Hash specific commit>
+
 	2.2 
 
  Git Commands
@@ -219,11 +227,11 @@ cd  				(Terug naar basis folder)
 
 ls 				(list) toont een lijst van de bestanden, in de directory waar je je in bevindt.
 
-Clear  				(clear terminal) Deze command wist de informatie in de terminal.
+clear  				(clear terminal) Deze command wist de informatie in de terminal.
 
 mkdir  				(make directory)
 
-Git checkout [name branch]      (Switch to the branch mentioned)
+
 
 			
 
